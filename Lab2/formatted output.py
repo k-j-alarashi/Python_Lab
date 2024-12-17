@@ -1,0 +1,6 @@
+name = input("Enter Your Name : ")
+age = int(input("Enter Your Age : "))
+major = input("Enter Your Major : ")
+print("Hello : ",name," Age : ",age," Major : ",major)
+print("Hello : {} Age : {} Major : {}".format(name,age,major))
+print(f"Hello : {name} Age : {age} Major : {major}")
